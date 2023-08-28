@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8107B6322A8CAAA900302C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8107B6312A8CAAA900302C23 /* AppDelegate.swift */; };
+		8107B6342A8CAAA900302C23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8107B6332A8CAAA900302C23 /* SceneDelegate.swift */; };
+		8107B6362A8CAAA900302C23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8107B6352A8CAAA900302C23 /* ViewController.swift */; };
+		8107B6392A8CAAA900302C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8107B6372A8CAAA900302C23 /* Main.storyboard */; };
+		8107B63B2A8CAAAA00302C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8107B63A2A8CAAAA00302C23 /* Assets.xcassets */; };
+		8107B63E2A8CAAAA00302C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8107B63C2A8CAAAA00302C23 /* LaunchScreen.storyboard */; };
+		8107B6492A8CAAAA00302C23 /* ReCaptchaPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8107B6482A8CAAAA00302C23 /* ReCaptchaPOCTests.swift */; };
+		8107B6532A8CAAAA00302C23 /* ReCaptchaPOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8107B6522A8CAAAA00302C23 /* ReCaptchaPOCUITests.swift */; };
+		8107B6552A8CAAAA00302C23 /* ReCaptchaPOCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8107B6542A8CAAAA00302C23 /* ReCaptchaPOCUITestsLaunchTests.swift */; };
+		8107B6632A8CACAE00302C23 /* RecaptchaEnterprise in Frameworks */ = {isa = PBXBuildFile; productRef = 8107B6622A8CACAE00302C23 /* RecaptchaEnterprise */; };
+		8107B6652A8CACAE00302C23 /* RecaptchaInterop in Frameworks */ = {isa = PBXBuildFile; productRef = 8107B6642A8CACAE00302C23 /* RecaptchaInterop */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8107B6452A8CAAAA00302C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8107B6262A8CAAA900302C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8107B62D2A8CAAA900302C23;
+			remoteInfo = ReCaptchaPOC;
+		};
+		8107B64F2A8CAAAA00302C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8107B6262A8CAAA900302C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8107B62D2A8CAAA900302C23;
+			remoteInfo = ReCaptchaPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8107B62E2A8CAAA900302C23 /* ReCaptchaPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReCaptchaPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8107B6312A8CAAA900302C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8107B6332A8CAAA900302C23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8107B6352A8CAAA900302C23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8107B6382A8CAAA900302C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8107B63A2A8CAAAA00302C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8107B63D2A8CAAAA00302C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8107B63F2A8CAAAA00302C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8107B6442A8CAAAA00302C23 /* ReCaptchaPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReCaptchaPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8107B6482A8CAAAA00302C23 /* ReCaptchaPOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReCaptchaPOCTests.swift; sourceTree = "<group>"; };
+		8107B64E2A8CAAAA00302C23 /* ReCaptchaPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReCaptchaPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8107B6522A8CAAAA00302C23 /* ReCaptchaPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReCaptchaPOCUITests.swift; sourceTree = "<group>"; };
+		8107B6542A8CAAAA00302C23 /* ReCaptchaPOCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReCaptchaPOCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8107B6662A8CB94000302C23 /* ReCaptchaPOC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReCaptchaPOC.entitlements; sourceTree = "<group>"; };
+		8107B6672A8CBA8A00302C23 /* ReCaptchaPOC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReCaptchaPOC-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8107B62B2A8CAAA900302C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8107B6652A8CACAE00302C23 /* RecaptchaInterop in Frameworks */,
+				8107B6632A8CACAE00302C23 /* RecaptchaEnterprise in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8107B6412A8CAAAA00302C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8107B64B2A8CAAAA00302C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8107B6252A8CAAA900302C23 = {
+			isa = PBXGroup;
+			children = (
+				8107B6302A8CAAA900302C23 /* ReCaptchaPOC */,
+				8107B6472A8CAAAA00302C23 /* ReCaptchaPOCTests */,
+				8107B6512A8CAAAA00302C23 /* ReCaptchaPOCUITests */,
+				8107B62F2A8CAAA900302C23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8107B62F2A8CAAA900302C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8107B62E2A8CAAA900302C23 /* ReCaptchaPOC.app */,
+				8107B6442A8CAAAA00302C23 /* ReCaptchaPOCTests.xctest */,
+				8107B64E2A8CAAAA00302C23 /* ReCaptchaPOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8107B6302A8CAAA900302C23 /* ReCaptchaPOC */ = {
+			isa = PBXGroup;
+			children = (
+				8107B6662A8CB94000302C23 /* ReCaptchaPOC.entitlements */,
+				8107B6312A8CAAA900302C23 /* AppDelegate.swift */,
+				8107B6332A8CAAA900302C23 /* SceneDelegate.swift */,
+				8107B6352A8CAAA900302C23 /* ViewController.swift */,
+				8107B6372A8CAAA900302C23 /* Main.storyboard */,
+				8107B63A2A8CAAAA00302C23 /* Assets.xcassets */,
+				8107B63C2A8CAAAA00302C23 /* LaunchScreen.storyboard */,
+				8107B63F2A8CAAAA00302C23 /* Info.plist */,
+				8107B6672A8CBA8A00302C23 /* ReCaptchaPOC-Bridging-Header.h */,
+			);
+			path = ReCaptchaPOC;
+			sourceTree = "<group>";
+		};
+		8107B6472A8CAAAA00302C23 /* ReCaptchaPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				8107B6482A8CAAAA00302C23 /* ReCaptchaPOCTests.swift */,
+			);
+			path = ReCaptchaPOCTests;
+			sourceTree = "<group>";
+		};
+		8107B6512A8CAAAA00302C23 /* ReCaptchaPOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8107B6522A8CAAAA00302C23 /* ReCaptchaPOCUITests.swift */,
+				8107B6542A8CAAAA00302C23 /* ReCaptchaPOCUITestsLaunchTests.swift */,
+			);
+			path = ReCaptchaPOCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8107B62D2A8CAAA900302C23 /* ReCaptchaPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8107B6582A8CAAAA00302C23 /* Build configuration list for PBXNativeTarget "ReCaptchaPOC" */;
+			buildPhases = (
+				8107B62A2A8CAAA900302C23 /* Sources */,
+				8107B62B2A8CAAA900302C23 /* Frameworks */,
+				8107B62C2A8CAAA900302C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReCaptchaPOC;
+			packageProductDependencies = (
+				8107B6622A8CACAE00302C23 /* RecaptchaEnterprise */,
+				8107B6642A8CACAE00302C23 /* RecaptchaInterop */,
+			);
+			productName = ReCaptchaPOC;
+			productReference = 8107B62E2A8CAAA900302C23 /* ReCaptchaPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8107B6432A8CAAAA00302C23 /* ReCaptchaPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8107B65B2A8CAAAA00302C23 /* Build configuration list for PBXNativeTarget "ReCaptchaPOCTests" */;
+			buildPhases = (
+				8107B6402A8CAAAA00302C23 /* Sources */,
+				8107B6412A8CAAAA00302C23 /* Frameworks */,
+				8107B6422A8CAAAA00302C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8107B6462A8CAAAA00302C23 /* PBXTargetDependency */,
+			);
+			name = ReCaptchaPOCTests;
+			productName = ReCaptchaPOCTests;
+			productReference = 8107B6442A8CAAAA00302C23 /* ReCaptchaPOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8107B64D2A8CAAAA00302C23 /* ReCaptchaPOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8107B65E2A8CAAAA00302C23 /* Build configuration list for PBXNativeTarget "ReCaptchaPOCUITests" */;
+			buildPhases = (
+				8107B64A2A8CAAAA00302C23 /* Sources */,
+				8107B64B2A8CAAAA00302C23 /* Frameworks */,
+				8107B64C2A8CAAAA00302C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8107B6502A8CAAAA00302C23 /* PBXTargetDependency */,
+			);
+			name = ReCaptchaPOCUITests;
+			productName = ReCaptchaPOCUITests;
+			productReference = 8107B64E2A8CAAAA00302C23 /* ReCaptchaPOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8107B6262A8CAAA900302C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8107B62D2A8CAAA900302C23 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8107B6432A8CAAAA00302C23 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8107B62D2A8CAAA900302C23;
+					};
+					8107B64D2A8CAAAA00302C23 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8107B62D2A8CAAA900302C23;
+					};
+				};
+			};
+			buildConfigurationList = 8107B6292A8CAAA900302C23 /* Build configuration list for PBXProject "ReCaptchaPOC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8107B6252A8CAAA900302C23;
+			packageReferences = (
+				8107B6612A8CACAE00302C23 /* XCRemoteSwiftPackageReference "recaptcha-enterprise-mobile-sdk" */,
+			);
+			productRefGroup = 8107B62F2A8CAAA900302C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8107B62D2A8CAAA900302C23 /* ReCaptchaPOC */,
+				8107B6432A8CAAAA00302C23 /* ReCaptchaPOCTests */,
+				8107B64D2A8CAAAA00302C23 /* ReCaptchaPOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8107B62C2A8CAAA900302C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8107B63E2A8CAAAA00302C23 /* LaunchScreen.storyboard in Resources */,
+				8107B63B2A8CAAAA00302C23 /* Assets.xcassets in Resources */,
+				8107B6392A8CAAA900302C23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8107B6422A8CAAAA00302C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8107B64C2A8CAAAA00302C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8107B62A2A8CAAA900302C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8107B6362A8CAAA900302C23 /* ViewController.swift in Sources */,
+				8107B6322A8CAAA900302C23 /* AppDelegate.swift in Sources */,
+				8107B6342A8CAAA900302C23 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8107B6402A8CAAAA00302C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8107B6492A8CAAAA00302C23 /* ReCaptchaPOCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8107B64A2A8CAAAA00302C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8107B6532A8CAAAA00302C23 /* ReCaptchaPOCUITests.swift in Sources */,
+				8107B6552A8CAAAA00302C23 /* ReCaptchaPOCUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8107B6462A8CAAAA00302C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8107B62D2A8CAAA900302C23 /* ReCaptchaPOC */;
+			targetProxy = 8107B6452A8CAAAA00302C23 /* PBXContainerItemProxy */;
+		};
+		8107B6502A8CAAAA00302C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8107B62D2A8CAAA900302C23 /* ReCaptchaPOC */;
+			targetProxy = 8107B64F2A8CAAAA00302C23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8107B6372A8CAAA900302C23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8107B6382A8CAAA900302C23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8107B63C2A8CAAAA00302C23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8107B63D2A8CAAAA00302C23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8107B6562A8CAAAA00302C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8107B6572A8CAAAA00302C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8107B6592A8CAAAA00302C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReCaptchaPOC/ReCaptchaPOC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E6AAQ3YXH5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReCaptchaPOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DAWPatient-dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ReCaptchaPOC/ReCaptchaPOC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8107B65A2A8CAAAA00302C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReCaptchaPOC/ReCaptchaPOC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SC2BGU66V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReCaptchaPOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhnt.recaptchaPoc.ReCaptchaPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ReCaptchaPOC/ReCaptchaPOC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8107B65C2A8CAAAA00302C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SC2BGU66V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhnt.recaptchaPoc.ReCaptchaPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReCaptchaPOC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReCaptchaPOC";
+			};
+			name = Debug;
+		};
+		8107B65D2A8CAAAA00302C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SC2BGU66V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhnt.recaptchaPoc.ReCaptchaPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReCaptchaPOC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReCaptchaPOC";
+			};
+			name = Release;
+		};
+		8107B65F2A8CAAAA00302C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SC2BGU66V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhnt.recaptchaPoc.ReCaptchaPOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReCaptchaPOC;
+			};
+			name = Debug;
+		};
+		8107B6602A8CAAAA00302C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SC2BGU66V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhnt.recaptchaPoc.ReCaptchaPOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReCaptchaPOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8107B6292A8CAAA900302C23 /* Build configuration list for PBXProject "ReCaptchaPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8107B6562A8CAAAA00302C23 /* Debug */,
+				8107B6572A8CAAAA00302C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8107B6582A8CAAAA00302C23 /* Build configuration list for PBXNativeTarget "ReCaptchaPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8107B6592A8CAAAA00302C23 /* Debug */,
+				8107B65A2A8CAAAA00302C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8107B65B2A8CAAAA00302C23 /* Build configuration list for PBXNativeTarget "ReCaptchaPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8107B65C2A8CAAAA00302C23 /* Debug */,
+				8107B65D2A8CAAAA00302C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8107B65E2A8CAAAA00302C23 /* Build configuration list for PBXNativeTarget "ReCaptchaPOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8107B65F2A8CAAAA00302C23 /* Debug */,
+				8107B6602A8CAAAA00302C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8107B6612A8CACAE00302C23 /* XCRemoteSwiftPackageReference "recaptcha-enterprise-mobile-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GoogleCloudPlatform/recaptcha-enterprise-mobile-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 18.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8107B6622A8CACAE00302C23 /* RecaptchaEnterprise */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8107B6612A8CACAE00302C23 /* XCRemoteSwiftPackageReference "recaptcha-enterprise-mobile-sdk" */;
+			productName = RecaptchaEnterprise;
+		};
+		8107B6642A8CACAE00302C23 /* RecaptchaInterop */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8107B6612A8CACAE00302C23 /* XCRemoteSwiftPackageReference "recaptcha-enterprise-mobile-sdk" */;
+			productName = RecaptchaInterop;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8107B6262A8CAAA900302C23 /* Project object */;
+}

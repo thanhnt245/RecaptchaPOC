@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ReCaptchaPOC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gb6-ee-Jsq">
+                                <rect key="frame" x="94.666666666666671" y="109" width="203.66666666666663" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Test call api - Get token"/>
+                                <connections>
+                                    <action selector="makeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Gs-vX-OIa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="000-jZ-3pW">
+                                <rect key="frame" x="122" y="285" width="149" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Get Assessment"/>
+                                <connections>
+                                    <action selector="getAssessment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cha-u2-8xC"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="--" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9Pj-jj-KYa">
+                                <rect key="frame" x="20" y="164" width="353" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="cfA-AF-cYc"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="--" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Uib-Ae-XTC">
+                                <rect key="frame" x="20" y="340" width="353" height="423"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JT7-Zi-aC7">
+                                <rect key="frame" x="163" y="773" width="67.333333333333314" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Reset"/>
+                                <connections>
+                                    <action selector="resetContent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bdt-Dm-pEt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JT7-Zi-aC7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ijr-8M-gvJ"/>
+                            <constraint firstItem="9Pj-jj-KYa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Rjg-Ra-Gcv"/>
+                            <constraint firstItem="Uib-Ae-XTC" firstAttribute="trailing" secondItem="9Pj-jj-KYa" secondAttribute="trailing" id="Rpb-WE-suM"/>
+                            <constraint firstItem="9Pj-jj-KYa" firstAttribute="top" secondItem="Gb6-ee-Jsq" secondAttribute="bottom" constant="20" id="TMT-7Z-HRu"/>
+                            <constraint firstItem="Gb6-ee-Jsq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="Yl9-bR-Fdj"/>
+                            <constraint firstItem="Gb6-ee-Jsq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZXs-wp-b6g"/>
+                            <constraint firstItem="JT7-Zi-aC7" firstAttribute="top" secondItem="Uib-Ae-XTC" secondAttribute="bottom" constant="10" id="dGX-Rm-1Lc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JT7-Zi-aC7" secondAttribute="bottom" constant="10" id="k7l-Pt-ACW"/>
+                            <constraint firstItem="9Pj-jj-KYa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lFF-4G-ZLw"/>
+                            <constraint firstItem="Uib-Ae-XTC" firstAttribute="leading" secondItem="9Pj-jj-KYa" secondAttribute="leading" id="pz1-BU-FBD"/>
+                            <constraint firstItem="000-jZ-3pW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qhm-fG-Oaa"/>
+                            <constraint firstItem="Uib-Ae-XTC" firstAttribute="top" secondItem="000-jZ-3pW" secondAttribute="bottom" constant="20" id="sCB-zv-qr4"/>
+                            <constraint firstItem="000-jZ-3pW" firstAttribute="top" secondItem="9Pj-jj-KYa" secondAttribute="bottom" constant="21" id="udV-df-CvW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="assessmentTextview" destination="Uib-Ae-XTC" id="dcy-oo-ZGW"/>
+                        <outlet property="tokenTextview" destination="9Pj-jj-KYa" id="7I6-a8-m1U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-127.48091603053435" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

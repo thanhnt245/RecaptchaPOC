@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "recaptcha-enterprise-mobile-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/GoogleCloudPlatform/recaptcha-enterprise-mobile-sdk",
+      "state" : {
+        "revision" : "50262f493e1b68cc8d1e18aeee985b05ca682c94",
+        "version" : "18.2.2"
+      }
+    }
+  ],
+  "version" : 2
+}
